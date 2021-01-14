@@ -1,15 +1,15 @@
-# @rmw/xxx
+# @rmw/rxdb-plugin
 
 ##  安装
 
 ```
-yarn add @rmw/xxx
+yarn add @rmw/rxdb-plugin
 ```
 
 或者
 
 ```
-npm install @rmw/xxx
+npm install @rmw/rxdb-plugin
 ```
 
 ## 使用

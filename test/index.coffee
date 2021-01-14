@@ -1,9 +1,9 @@
 #!/usr/bin/env coffee
-import xxx from '@rmw/xxx'
-# import {xxx as Xxx} from '@rmw/xxx'
+import rxdb-plugin from '@rmw/rxdb-plugin'
+# import {rxdb-plugin as Xxx} from '@rmw/rxdb-plugin'
 import test from 'tape-catch'
 
-test 'xxx', (t)=>
-  t.equal xxx(1,2),3
+test 'rxdb-plugin', (t)=>
+  t.equal rxdb-plugin(1,2),3
   # t.deepEqual Xxx([1],[2]),[3]
   t.end()
