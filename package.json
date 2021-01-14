@@ -1,6 +1,6 @@
 {
   "name": "@rmw/rxdb-plugin",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "repository": "https://github.com/rmw-lib/rxdb-plugin",
   "author": "i@rmw.link",
   "license": "MulanPSL-2.0",
@@ -11,8 +11,7 @@
   "files": [
     "/lib"
   ],
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "@rmw/md-include": "^0.4.5",
     "coffeescript": "^2.5.1",
