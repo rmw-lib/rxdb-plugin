@@ -1,5 +1,5 @@
-export default (addRxPlugin, redis)=>
-  addRxPlugin {
+export default (redis)=>
+  {
     rxdb:true
     prototypes:
       RxCollection:(proto) =>
