@@ -12,7 +12,6 @@
     "/lib"
   ],
   "dependencies": {
-    "@rmw/console": "^0.0.10"
   },
   "devDependencies": {
     "@rmw/md-include": "^0.4.5",
