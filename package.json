@@ -1,6 +1,6 @@
 {
   "name": "@rmw/rxdb-plugin",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "repository": "https://github.com/rmw-lib/rxdb-plugin",
   "author": "i@rmw.link",
   "license": "MulanPSL-2.0",
