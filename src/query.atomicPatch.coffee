@@ -10,7 +10,7 @@ export default (redis)=>
 
             if Array.isArray li
               todo = []
-              for i from
+              for i from li
                 todo.push i.atomicPatch o
               return Promise.all todo
 
