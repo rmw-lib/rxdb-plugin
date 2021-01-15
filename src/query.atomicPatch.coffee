@@ -2,14 +2,20 @@ export default (redis)=>
   {
     rxdb:true
     prototypes:
-      RxQuery:(proto) =>
+      RxQueryBase:(proto) =>
         Object.assign(
           proto
           atomicPatch:(o)->
-            todo = []
-            for i from await @exec()
-              todo.push i.atomicPatch o
-            Promise.all todo
+            li = await @exec()
+
+            if Array.isArray li
+              todo = []
+              for i from
+                todo.push i.atomicPatch o
+              return Promise.all todo
+
+            return li.atomicPatch(o)
+
         )
   }
 
